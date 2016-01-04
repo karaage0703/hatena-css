@@ -409,7 +409,7 @@ html,
 body {
   /* font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif; */
 
-	font: 16px/1.8 "游ゴシック", "YuGothic", "Yu Gothic", 'ヒラギノ角ゴ ProN W3', "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;
+	font-family: '游ゴシック', 'YuGothic', 'Yu Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'Helvetica', 'Arial', 'sans-serif';
 
   color: #454545;
   background-color: #ffffff;
@@ -531,8 +531,8 @@ a.keyword {
   float: left;
 }
 #box2 {
-  /* width: 300px; */
-	width: 378px;
+  width: 300px;
+	/* width: 378px; */
   float: right;
 }
 /* 1カラムにしたい場合は下記のコメントアウトを外してください ----
