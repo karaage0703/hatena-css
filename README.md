@@ -12,3 +12,4 @@ add hatena blog footer following line
 
 # Reference Site
 http://karamomo.hatenablog.jp/entry/2015/08/Hatenablog-GitHub-CSS
+https://github.com/hatena/Hatena-Blog-Themes/tree/master/boilerplate
