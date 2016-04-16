@@ -1,0 +1,108 @@
+/* <system section="theme" selected="11696248318755805834"> */
+@import url("http://hatenablog.com/theme/11696248318755805834.css");
+/* </system> */
+#blog-description {
+    margin-left: 0;
+	display: block;
+}
+
+.hatena-bookmark-widget-title {
+    display:none;
+}
+
+.hatena-bookmark-widget-title img { 
+    display:none; 
+}
+
+.hatena-bookmark-count a {
+	color: #ff0606;
+	background: #ffcbcb;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.hatena-bookmark-widget-footer {
+    display:none;
+}
+
+
+.hatena-module, .entry-inner, .pager-next a, .pager-prev a, .page-archive #main-inner, .header-image-enable #blog-title-inner, .header-image-only #blog-title-inner, .breadcrumb div, .erg {
+    box-shadow: 0 0 5px #999;
+}
+
+.entry-content {
+    line-height: 1.8; /* 1.5〜2.0くらい */
+	font-size: 100%; /* 80%〜110%くらい */
+}
+
+#container {
+    width: 1105px;
+}
+
+#content, #blog-title, .breadcrumb, #bottom-editarea{
+	width: 1085px;
+}
+
+#top-editarea {
+    margin-left: 0;
+	width: 770px;
+}
+
+#wrapper, .page-index .pager-next a, .page-search .pager-next a ,.page-category-category_name .pager-next a, .page-entries-year-month-day .pager-next a, .breadcrumb div, .pager  {
+	width: 770px;
+}
+
+.page-about #main .entry-content::before, .page-archive #main-inner::before {
+	width: 730px;
+}
+
+.page-entry .pager-next a,.page-entry .pager-prev a, .page-archive .pager-next a, .page-archive .pager-prev a {
+	width: 378px; /* この箇所のみpx/2の値を加算 */
+}
+
+.header-image-enable #blog-title-inner, .header-image-only #blog-title-inner {
+	background-size: cover;
+}
+
+.search-module-input {
+	background: rgba(250,250,250,0.7);
+}
+
+/* <system section="background" selected="bg7"> */
+body{ background-color:#e3fbf4; background-image: url('/images/theme/backgrounds/theme7.gif'); background-repeat: no-repeat; background-attachment:fixed; background-position:left top; font: 16px/1.8 "游ゴシック", "YuGothic", "Yu Gothic", 'ヒラギノ角ゴ ProN W3', "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif;}
+/* </system> */
+
+h1.entry-title a {
+font: 22px/1.8 "游ゴシック", "YuGothic", "Yu Gothic", 'ヒラギノ角ゴ ProN W3', "Hiragino Kaku Gothic ProN", "Meiryo", Helvetica, Arial, sans-serif; font-weight: bold;
+} 
+
+.hatena-asin-detail a {
+    color: #e47911;
+}
+
+.hatena-asin-detail a:hover {
+    color: #ff9900;
+}
+
+.hatena-asin-detail {
+    position: relative;
+}
+
+.hatena-asin-detail > a,
+.hatena-asin-detail > div {
+    position: relative;
+    z-index: 2;
+}
+
+.hatena-asin-detail::before {
+    color: #ddd;
+    content: "\f034";
+    cursor: default;
+    display: inline-block;
+    font: 36px/1 blogicon;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
