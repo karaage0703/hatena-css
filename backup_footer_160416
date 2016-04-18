@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    // var FLICKREX_API_KEY = "(your Flickr API key)";
+    var FLICKREX_EXIF_JQUERY_SELECTOR = "#content img";
+    //var FLICKREX_EXIF_FORMAT = "%camera% / %Focal Length% / f/%aperture% / ISO %ISO Speed% / %Exposure% sec / %Exposure Bias% EV / %Software%";
+
+//var FLICKREX_EXIF_FORMAT = "%camera%, %Focal Length% / f/%aperture% / ISO %ISO Speed% / %Exposure%sec / %Exposure Bias% EV";
+    var FLICKREX_EXIF_FORMAT = "%camera%, %Lens%, %Focal Length% / f/%aperture% / ISO %ISO Speed% / %Exposure%sec / %Exposure Bias% EV";    
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//github.com/drikin/FlickrEx/raw/stable/flickrex.js"></script>
+<script src="//github.com/drikin/FlickrEx/raw/stable/exifex.js"></script>
+
+<script type="text/javascript">
+    window._pt_lt = new Date().getTime();
+	  window._pt_sp_2 = [];
+	  _pt_sp_2.push('setAccount,14726c1b');
+	  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	  
+	  (function() {
+		var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+		atag.src = _protocol + 'jsv2.ptengine.jp/pta.js';
+		var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+		stag.src = _protocol + 'jsv2.ptengine.jp/pts.js';
+		var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+	  })();
+</script>
